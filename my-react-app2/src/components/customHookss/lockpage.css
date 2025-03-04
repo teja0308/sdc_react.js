@@ -1,0 +1,96 @@
+.puzzle-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  
+  .puzzle-title {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .puzzle-riddle {
+    text-align: center;
+    margin-bottom: 16px;
+    font-weight: 600;
+  }
+  
+  .puzzle-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .puzzle-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button-wrapper {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .submit-btn, .hint-btn {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn {
+    background-color: #3b82f6;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2563eb;
+  }
+  
+  .hint-btn {
+    background-color: #6b7280;
+  }
+  
+  .hint-btn:hover {
+    background-color: #4b5563;
+  }
+  
+  .success-message {
+    text-align: center;
+  }
+  
+  .message-wrapper {
+    margin-top: 16px;
+    text-align: center;
+  }
+  
+  .message {
+    font-weight: 500;
+  }
+  
+  .message.success {
+    color: #10b981;
+  }
+  
+  .message.error {
+    color: #ef4444;
+  }
+  
+  .message.default {
+    color: #6b7280;
+  }

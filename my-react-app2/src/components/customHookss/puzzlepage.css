@@ -1,0 +1,140 @@
+.page-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #e9d8fd, #bee3f8);
+    padding: 2rem;
+}
+
+.content-wrapper {
+    max-width: 40rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.header-section {
+    text-align: center;
+    gap: 1rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #6b46c1;
+}
+
+.subtitle {
+    color: #718096;
+}
+
+.interactive-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.click-counter, .hidden-surprise {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.click-counter:hover, .hidden-surprise:hover {
+    transform: scale(1.05);
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.counter-title {
+    font-size: 1.25rem;
+    font-weight: medium;
+}
+
+.counter-value {
+    margin-top: 0.5rem;
+    color: #4a5568;
+}
+
+.hover-text {
+    margin-top: 0.5rem;
+    color: #4a5568;
+}
+
+.secret-message {
+    position: absolute;
+    inset: 0;
+    background: #6b46c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-text {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.hidden-text {
+    text-align: center;
+    margin-top: 2rem;
+    color: transparent;
+    transition: color 0.2s;
+}
+
+.hidden-text:hover {
+    color: #a0aec0;
+}
+
+.moving-elements {
+    position: relative;
+    height: 8rem;
+    display: flex;
+    gap: 1rem;
+}
+
+/* Additional CSS for puzzle elements */
+.puzzle-container {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: rgba(240, 240, 240, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.puzzle-input {
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.puzzle-input input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+}
+
+.puzzle-input button {
+    padding: 8px 16px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.puzzle-solved {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #d4edda;
+    border-radius: 4px;
+    color: #155724;
+}
